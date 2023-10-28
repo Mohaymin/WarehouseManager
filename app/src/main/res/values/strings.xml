@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Warehouse Manager</string>
+    <string name="create_warehouse_if_none_exist">No warehouse found.\nTap + to create one.</string>
+    <string name="add_warehouse">Add warehouse</string>
 </resources>
