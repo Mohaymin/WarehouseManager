@@ -1,4 +1,4 @@
-package com.baba_abdullah.warehousemanager
+package com.baba_abdullah.warehousemanager.view_warehouse_list
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -8,7 +8,6 @@ import androidx.lifecycle.viewModelScope
 import com.baba_abdullah.warehousemanager.data.local.AppDatabase
 import com.baba_abdullah.warehousemanager.data.local.WarehouseEntity
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
 class MainActivityViewModel(private val database: AppDatabase) : ViewModel() {

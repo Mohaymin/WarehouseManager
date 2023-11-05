@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.baba_abdullah.warehousemanager.ValueOf
+import com.baba_abdullah.warehousemanager.utils.ValueOf
 
 @Database(entities = [WarehouseEntity::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {

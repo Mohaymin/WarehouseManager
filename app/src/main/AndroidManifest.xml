@@ -16,7 +16,7 @@
             android:name=".add_warehouse.AddWarehouseActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view_warehouse_list.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

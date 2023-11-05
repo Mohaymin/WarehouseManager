@@ -3,7 +3,7 @@ package com.baba_abdullah.warehousemanager.data.local
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.baba_abdullah.warehousemanager.ValueOf
+import com.baba_abdullah.warehousemanager.utils.ValueOf
 import kotlinx.coroutines.flow.Flow
 
 @Dao

@@ -1,4 +1,4 @@
-package com.baba_abdullah.warehousemanager
+package com.baba_abdullah.warehousemanager.utils
 
 class ValueOf {
     companion object {

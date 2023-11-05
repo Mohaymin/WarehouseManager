@@ -1,4 +1,4 @@
-package com.baba_abdullah.warehousemanager
+package com.baba_abdullah.warehousemanager.view_warehouse_list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
