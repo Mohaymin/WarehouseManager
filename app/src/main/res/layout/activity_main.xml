@@ -12,9 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp"
         tools:itemCount="4"
-        tools:listitem="@layout/item_warehouse"
-        android:layout_marginTop="16dp" />
+        tools:listitem="@layout/item_warehouse" />
 
     <TextView
         android:id="@+id/tv_empty_warehouse_text"
