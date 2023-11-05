@@ -1,4 +1,4 @@
-package com.baba_abdullah.warehousemanager
+package com.baba_abdullah.warehousemanager.add_warehouse
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

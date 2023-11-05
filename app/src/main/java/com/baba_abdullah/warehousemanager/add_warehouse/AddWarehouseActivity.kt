@@ -1,9 +1,10 @@
-package com.baba_abdullah.warehousemanager
+package com.baba_abdullah.warehousemanager.add_warehouse
 
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import com.baba_abdullah.warehousemanager.ValueOf
 import com.baba_abdullah.warehousemanager.data.local.AppDatabase
 import com.baba_abdullah.warehousemanager.data.local.WarehouseEntity
 import com.baba_abdullah.warehousemanager.databinding.ActivityAddWarehouseBinding

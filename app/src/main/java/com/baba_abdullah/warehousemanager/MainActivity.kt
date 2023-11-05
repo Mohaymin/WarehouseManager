@@ -3,6 +3,7 @@ package com.baba_abdullah.warehousemanager
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.baba_abdullah.warehousemanager.add_warehouse.AddWarehouseActivity
 import com.baba_abdullah.warehousemanager.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
