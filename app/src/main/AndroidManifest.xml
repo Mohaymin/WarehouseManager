@@ -13,6 +13,9 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
+            android:name=".view_warehouse_details.WarehouseDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".add_warehouse.AddWarehouseActivity"
             android:exported="false" />
         <activity
