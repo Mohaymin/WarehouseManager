@@ -43,14 +43,13 @@ class AddWarehouseActivity : AppCompatActivity() {
                 )
             )
         }
-        binding.warehouseNameInputField.setOnEditorActionListener(object : TextView.OnEditorActionListener {
+        binding.warehouseNameInputField.setOnEditorActionListener(object :
+            TextView.OnEditorActionListener {
             override fun onEditorAction(p0: TextView?, p1: Int, p2: KeyEvent?): Boolean {
-               if(p1==EditorInfo.IME_ACTION_DONE)
-               {
-                   binding.saveButton.performClick()
-                   return true
-               }
-
+                if (p1 == EditorInfo.IME_ACTION_DONE) {
+                    binding.saveButton.performClick()
+                    return true
+                }
                 return false
             }
         })

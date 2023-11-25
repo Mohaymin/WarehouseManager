@@ -19,10 +19,7 @@
             android:layout_height="wrap_content"
             android:hint="Warehouse name"
             android:imeOptions="actionDone"
-            android:inputType="text"
-
-
-            />
+            android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
