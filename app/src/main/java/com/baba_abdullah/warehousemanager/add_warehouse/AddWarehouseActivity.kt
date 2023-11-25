@@ -1,6 +1,10 @@
 package com.baba_abdullah.warehousemanager.add_warehouse
 
 import android.os.Bundle
+import android.view.KeyEvent
+import android.view.inputmethod.EditorInfo
+import android.widget.EditText
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -39,6 +43,17 @@ class AddWarehouseActivity : AppCompatActivity() {
                 )
             )
         }
+        binding.warehouseNameInputField.setOnEditorActionListener(object :
+            TextView.OnEditorActionListener {
+            override fun onEditorAction(p0: TextView?, p1: Int, p2: KeyEvent?): Boolean {
+                if (p1 == EditorInfo.IME_ACTION_DONE) {
+                    binding.saveButton.performClick()
+                    return true
+                }
+                return false
+            }
+        })
+
 
         viewModel.isInsertSuccessful.observe(this) { isInsertSuccessful ->
             if (isInsertSuccessful) {
